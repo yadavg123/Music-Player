@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="images/cn.png" type="image/png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music Player</title>
+</head>
+<body>
+
+	<!-- HEADER OF THE PAGE -->
+	<header>
+
+		<!-- LEFT SIDE OF HEADER: LOGO AND BRAND -->
+		<div id="head1">
+			<div id="logo"></div>
+			<div id="brand"><span>Favourites</span></div>
+		</div>
+		
+		<!-- RIGHT SIDE: SEARCH AND PROFILE -->
+		<div id="head2">
+			<div class="search-bar">
+				<div class="input"><form>
+					<input type="text" placeholder="&#xF002;  Search" style="font-family:Arial, FontAwesome" />
+				</form></div>
+				<div class="micro"><i class="fas fa-microphone"></i></div>
+			</div>
+			<div class="notification"><i class="fas fa-bell"></i></div>
+			<div class="profile"></div>
+		</div>
+	</header>
+
+	<!-- MAIN CONTENT -->
+	<main>
+
+		<!-- CAROUSEL SECTION -->
+		<div id="carousel">
+			<img class="first" src="images/d2.jpg">
+			<img class="new" src="images/d4.jpg">
+			<img src="images/d3.jpg">
+		</div>  
+		
+		<!-- LATEST RELEASE -->
+		<div id="latest-release">
+			<div class="section-heading">Latest Release</div>
+			<div class="section-content flex-wrap">
+
+				<!-- EACH SECTION OF SECTION_CONTENT -->
+				<div class="lr2">
+					<div class="lr-image"></div>
+					<div class="lr-title">
+						<div class="lr-title-cell">
+							<h3>Onism</h3>
+							<span>AUG 11,2017</span>
+						</div>
+					</div>
+					<div class="lr-length">
+						<div class="dropdown">
+							<button class="dropbtn" style="padding:0;color:white;"><i class="fas fa-ellipsis-h"></i></button>
+							<div class="dropdown-content">
+								<a href="#"><i class="fas fa-play lr-icon"></i>Play Now</a>
+								<a href="#"><i class="fas fa-plus lr-icon"></i>Add to Queue</a>
+								<a href="#"><i class="fas fa-list-ul lr-icon"></i>Add to favourites</a>
+								<a href="#"><i class="fas fa-info-circle lr-icon"></i>Get info</a>
+							</div>
+						</div>
+						<span>4:44</span>
+					</div>
+				</div>
+				<div class="lr2">
+					<div class="lr-image"></div>
+					<div class="lr-title">
+						<div class="lr-title-cell">
+							<h3>Onism</h3>
+							<span>AUG 11,2017</span>
+						</div>
+					</div>
+					<div class="lr-length">
+						<div class="dropdown">
+							<button class="dropbtn" style="padding:0;color:white;"><i class="fas fa-ellipsis-h"></i></button>
+							<div class="dropdown-content">
+								<a href="#"><i class="fas fa-play lr-icon"></i>Play Now</a>
+								<a href="#"><i class="fas fa-plus lr-icon"></i>Add to Queue</a>
+								<a href="#"><i class="fas fa-list-ul lr-icon"></i>Add to favourites</a>
+								<a href="#"><i class="fas fa-info-circle lr-icon"></i>Get info</a>
+							</div>
+						</div>
+						<span>4:44</span>
+					</div>
+				</div>
+				<div class="lr2">
+					<div class="lr-image"></div>
+					<div class="lr-title">
+						<div class="lr-title-cell">
+							<h3>Onism</h3>
+							<span>AUG 11,2017</span>
+						</div>
+					</div>
+					<div class="lr-length">
+						<div class="dropdown">
+							<button class="dropbtn" style="padding:0;color:white;"><i class="fas fa-ellipsis-h"></i></button>
+							<div class="dropdown-content">
+								<a href="#"><i class="fas fa-play lr-icon"></i>Play Now</a>
+								<a href="#"><i class="fas fa-plus lr-icon"></i>Add to Queue</a>
+								<a href="#"><i class="fas fa-list-ul lr-icon"></i>Add to favourites</a>
+								<a href="#"><i class="fas fa-info-circle lr-icon"></i>Get info</a>
+							</div>
+						</div>
+						<span>4:44</span>
+					</div>
+				</div>
+				<div class="lr2">
+					<div class="lr-image"></div>
+					<div class="lr-title">
+						<div class="lr-title-cell">
+							<h3>Onism</h3>
+							<span>AUG 11,2017</span>
+						</div>
+					</div>
+					<div class="lr-length">
+						<div class="dropdown">
+							<button class="dropbtn" style="padding:0;color:white;"><i class="fas fa-ellipsis-h"></i></button>
+							<div class="dropdown-content">
+								<a href="#"><i class="fas fa-play lr-icon"></i>Play Now</a>
+								<a href="#"><i class="fas fa-plus lr-icon"></i>Add to Queue</a>
+								<a href="#"><i class="fas fa-list-ul lr-icon"></i>Add to favourites</a>
+								<a href="#"><i class="fas fa-info-circle lr-icon"></i>Get info</a>
+							</div>
+						</div>
+						<span>4:44</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- POPULAR ARTIST SECTION -->
+		<div id="popular-artist">
+			<div class="section-heading">Popular Artist</div>
+			<div class="section-content" style="justify-content: space-between;">
+				<div class="singers">
+					<a href="playlist.html">
+						<div class="singers-photo" style="background-image: url('images/s1.jpg');">
+						</div>
+					</a>
+					<div><h3>Ed Sheeran</h3></div>
+				</div>
+				<div class="singers">
+					<a href="playlist.html">
+						<div class="singers-photo" style="background-image: url('images/s2.jpg');"></div>
+					</a>
+					<div><h3>ColdPlay</h3></div>
+				</div>
+				<div class="singers">
+					<a href="playlist.html">
+						<div class="singers-photo" style="background-image: url('images/s3.jpg');"></div>
+					</a>
+					<div><h3>Zayn</h3></div>
+				</div>
+				<div class="singers">
+					<a href="playlist.html">
+						<div class="singers-photo" style="background-image: url('images/s4.jpg');"></div>
+					</a>
+					<div><h3>Charlie Puth</h3></div>
+				</div>
+				<div class="singers">
+					<a href="playlist.html">
+						<div class="singers-photo" style="background-image: url('images/s5.jpg');"></div>
+					</a>
+					<div><h3>Imagine Dragon</h3></div>
+				</div>
+				<div class="singers">
+					<a href="playlist.html">
+						<div class="singers-photo" style="background-image: url('images/s6.jpg');"></div>
+					</a>
+					<div><h3>Bruno Mars</h3></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- TYPE OF STATIONS SECTION -->
+		<div id="stations">
+			<div style="background-image: url('images/st1.png');width:140px;background-position: center;background-size: contain;background-repeat: no-repeat;"></div>
+			<div class="station-name" style="background-image: url('images/st2.png');"></div>
+			<div class="station-name" style="background-image: url('images/st3.png');"></div>
+			<div class="station-name" style="background-image: url('images/st4.png');"></div>
+			<div class="station-name" style="background-image: url('images/st5.png');"></div>
+			<div class="station-name" style="background-image: url('images/st6.png');"></div>
+			<div class="station-name" style="background-image: url('images/st7.png');"></div>
+		</div>
+
+		<!-- DIFFERENT KINDS OF MUSIC -->
+		<div id="type">
+			<div class="type-outer">
+				<div class="inner-div" style="background-image: url('images/party.jpg');">
+					<h2>Party</h2>
+				</div>
+			</div>
+			<div class="type-outer">
+				<div class="inner-div" style="background-image: url('images/electronic.jpg');">
+					<h2>Electronic</h2>
+				</div>
+			</div>
+			<div class="type-outer">
+				<div class="inner-div" style="background-image: url('images/roadtrip.jpg');">
+					<h2>Road Trip</h2>
+				</div>
+			</div>
+		</div>
+
+		<!-- ENGLISH MUSIC SECTION -->
+		<div id="latest-english" class="language">
+			<div class="section-heading">Latest English</div>
+			<div class="section-content" style="justify-content: space-between;">
+				<div class="le-item">
+					<div class="le-image" style="background-image: url('images/flower2.jpg');"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image" style="background-image: url('images/girl.png');"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image" style="background-image: url('images/flower2.jpg');"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image" style="background-image: url('images/girl.png');"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- HINDI MUSIC SECTION -->
+		<div id="latest-english" class="language">
+			<div class="section-heading">Latest Hindi</div>
+			<div class="section-content" style="justify-content: space-between;">
+				<div class="le-item">
+					<div class="le-image" style="background-image: url('images/flower2.jpg');"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image" style="background-image: url('images/girl.png');"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image" style="background-image: url('images/flower2.jpg');"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+				<div class="le-item">
+					<div class="le-image" style="background-image: url('images/girl.png');"></div>
+					<div class="le-title">
+						<h3>Onisum</h3>
+						<span>AUG 11,2017</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- MUSIC PLAYER -->
+		<div id="music-player">
+			<div id="music-title">
+				<div id="photo"></div>
+				<div id="description" style="padding-left: 10px;">
+					<h3>Imagine John <i class="fas fa-heart"></i> <i class="fas fa-ban"></i></h3>
+					<span>John Lennon</span>
+				</div>
+			</div>
+			<div id="music-track">
+				<div id="icons">
+					<i class="fas fa-random"></i>
+					<i class="fas fa-backward"></i>
+					<i class="far fa-pause-circle pause" style="font-size: 3rem;margin-top: 10px;"></i>
+					<i class="fas fa-forward"></i>
+					<i class="fas fa-redo-alt"></i>
+				</div>
+				<div id="track">
+					<span>1:39 </span>
+					<div id="track-length">
+						<div id="first-track"></div>
+						<div id="last-track"></div>
+					</div>
+					<span> 4:44</span>
+				</div>
+			</div>
+			<div id="music-volume">
+				<i class="fas fa-list"></i>
+				<i class="fas fa-video"></i>
+				<i class="fas fa-volume-up"></i>
+				<div id="sound-level">
+					<div id="first-sound"></div>
+				</div>
+				<i class="fas fa-expand-arrows-alt"></i>
+			</div>
+		</div>
+	</main>
+
+	<!-- ASIDE SECTION CONTAINING QUEUE -->
+	<aside>
+		<div class="header">
+			<h1>Queue</h1>
+			<div class="dropdown">
+				<button class="dropbtn">Dropdown&nbsp; &nbsp; &nbsp;<i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i></button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- QUEUE BODY -->
+		<div class="body">
+			<div class="body-item">
+				<div class="number">
+					<span>01</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Mirage</h3>
+					<span>Else</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span><i class="fas fa-signal" style="color:#3e98e0;"></i></span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Worry Bout Us</h3>
+					<span>Rosie Lowe</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>03</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>New Skin</h3>
+					<span>Flume</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>04</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Worry Bout Us</h3>
+					<span>Rosie Lowe</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>05</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Mirage</h3>
+					<span>Else</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>06</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>New Skin</h3>
+					<span>Flume</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>07</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Woory Bout Us</h3>
+					<span>Rosie Lowe</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>08</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Mirage</h3>
+					<span>Zayn</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>09</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Mirage</h3>
+					<span>Zayn</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>10</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Woory Bout Us</h3>
+					<span>Rosie Lowe</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>10</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Woory Bout Us</h3>
+					<span>Rosie Lowe</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>10</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Woory Bout Us</h3>
+					<span>Rosie Lowe</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>10</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Woory Bout Us</h3>
+					<span>Rosie Lowe</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>11</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>Mirage</h3>
+					<span>Zayn</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>12</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>New Skin</h3>
+					<span>Flume</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+			<div class="body-item">
+				<div class="number">
+					<span>13</span>
+				</div>
+				<div class="body-item-img"></div>
+				<div class="body-item-title">
+					<h3>New Skin</h3>
+					<span>Flume</span>
+				</div>
+				<div class="number">
+					<i class="far fa-heart heart"></i>
+				</div>
+			</div>
+		</div>
+	</aside>
+</body>
+</html>
